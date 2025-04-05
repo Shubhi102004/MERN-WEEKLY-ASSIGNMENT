@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Sample Webpage</title>
+
+  <!-- Internal CSS for styling -->
+  <style>
+    /* General page styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+    }
+
+    /* Main heading style */
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    /* Paragraph styling: font, line height, alignment */
+    p {
+      font-family: 'Georgia', serif;
+      line-height: 1.6;
+      text-align: justify;
+      color: #444;
+      margin: 10px 0;
+    }
+
+    /* Center image and caption */
+    .image-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .image-container img {
+      max-width: 300px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .caption {
+      font-size: 14px;
+      color: #666;
+      margin-top: 8px;
+    }
+
+    /* Styled button with hover effect */
+    .styled-button {
+      display: inline-block;
+      padding: 10px 20px;
+      border: 2px solid #333;
+      background-color: #fff;
+      color: #333;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s, color 0.3s;
+      margin: 20px 0;
+    }
+
+    .styled-button:hover {
+      background-color: #333;
+      color: #fff;
+    }
+
+    /* Simple table styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 30px 0;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Form styling */
+    form {
+      margin-top: 30px;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Input field styling */
+    input[type="text"], input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    /* Submit button styling */
+    input[type="submit"] {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Main Heading -->
+  <h1>Welcome to My Webpage</h1>
+
+  <!-- First Paragraph -->
+  <p>This is the first paragraph on my webpage. It contains some introductory content that is styled using CSS for improved readability.</p>
+
+  <!-- Second Paragraph -->
+  <p>Here is the second paragraph. It has the same style as the first one, but you can customize it further if you wish.</p>
+
+  <!-- Image with caption -->
+  <div class="image-container">
+    <img src="https://via.placeholder.com/300" alt="Sample Image">
+    <div class="caption">This is a caption for the image above.</div>
+  </div>
+
+  <!-- Styled Button -->
+  <div style="text-align: center;">
+    <a class="styled-button" href="#">Click Me</a>
+  </div>
+
+  <!-- Table with 3 rows and 3 columns -->
+  <table>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+      <th>Header 3</th>
+    </tr>
+    <tr>
+      <td>Row 1, Col 1</td>
+      <td>Row 1, Col 2</td>
+      <td>Row 1, Col 3</td>
+    </tr>
+    <tr>
+      <td>Row 2, Col 1</td>
+      <td>Row 2, Col 2</td>
+      <td>Row 2, Col 3</td>
+    </tr>
+  </table>
+
+  <!-- Basic Form -->
+  <form>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
