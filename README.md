@@ -1,1 +1,2 @@
-# MERN_WEEKLY_ASSIGNMENT
+# MERN WEEKLY ASSIGNMENT
+This is weekly Assignment for MERN Stack course
